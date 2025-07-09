@@ -14,8 +14,7 @@ sample = pd.DataFrame({
     'BMI': [30],
     'Diabetes': [0.672],
     'Age': [54],
-    'Outcome': [1],
-   
+
 })
 
 # Predict
