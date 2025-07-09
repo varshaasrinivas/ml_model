@@ -12,7 +12,7 @@ sample = pd.DataFrame({
     'SkinThickness': [46],
     'Insulin': [27],
     'BMI': [30],
-    'Diabetes': [0.672],
+    'DiabetesPedigreeFunction': [0.672],
     'Age': [54],
 
 })
