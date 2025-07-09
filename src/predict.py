@@ -20,4 +20,4 @@ sample = pd.DataFrame({
 # Predict
 prediction = model.predict(sample)[0]
 risk = "Diabetic" if prediction == 1 else "No Diabetic"
-print(f" Prediction: {prediction} ({Diabetic})")
+print(f" Prediction: {prediction}")
