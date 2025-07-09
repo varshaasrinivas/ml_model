@@ -3,7 +3,7 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 # Load data
-df = pd.read_csv('diabetes.csv')
+df = pd.read_csv('data/diabetes.csv')
 X = df.drop('target', axis=1)
 y = df['target']
 
